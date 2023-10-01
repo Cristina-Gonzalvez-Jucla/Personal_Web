@@ -1,0 +1,183 @@
+.textAboutMe {
+  padding: 10%;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 5%;
+  width: 100%;
+  margin: 0;
+}
+
+.firstColumn {
+  display: flex;
+  height: 170vh;
+  margin-top: -50vh;
+  width: 50%;
+  justify-content: center;
+}
+
+.secondColumn {
+  height: 170vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.columns {
+  display: flex;
+}
+
+.smallRectangle {
+  height: 170vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3%;
+}
+
+.rectangle-small {
+  width: 15vw;
+  height: 40vh;
+  background-color: purple;
+  border-radius: 3rem;
+}
+
+.margin-top {
+  margin-top: 32%;
+}
+
+.small-bkg-img {
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.rec1 {
+  background-image: url(../Images/rec9.webp);
+}
+
+.rec2 {
+  background-image: url(../Images/rec13.webp);
+}
+
+.rec3 {
+  background-image: url(../Images/rec3.webp);
+}
+
+.rec4 {
+  background-image: url(../Images/rec4.webp);
+}
+
+.rec5 {
+  background-image: url(../Images/rec1.webp);
+}
+
+.rec6 {
+  background-image: url(../Images/rec14.jpg);
+}
+
+.text-aligng-center {
+  text-align: center;
+  text-align: center;
+
+  font-size: 16px;
+  width: 55%;
+  margin-top: 5%;
+  font-family: Verdana, Tahoma, sans-serif !important;
+}
+
+.aboutMeTitle {
+  margin: 0;
+  line-height: 40px;
+}
+
+.software-crafter, .software-crafter2 {
+  padding: 10%;
+  height: 90vh;
+  margin-top: 5%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.columns-software-crafter, .columns-software-crafter2 {
+  display: flex;
+  height: 90vh;
+  word-wrap: break-word;
+}
+
+.firstColumnSC {
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secondColumnSC {
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.software-crafter-image {
+  background-image: url(../Images/rec7.webp);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 30vw;
+  height: 80vh;
+  background-color: purple;
+  border-radius: 15px;
+}
+
+.presentationAboutMe {
+  background-image: url(../Images/bk_2.webp);
+  background-position: center;
+  /*background-size: cover;*/
+  background-size: cover;
+
+  border-radius: 40px;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  width: 90%;
+  margin: auto;
+  height: 75vh;
+  margin-top: 9%;
+  margin-bottom: 5%;
+
+  box-shadow: 0px 6px 11px 0px var(--primary);
+}
+
+.aboutMe {
+  color: white;
+  margin-top: 10%;
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cofe-code {
+  background-image: url(../Images/rec10.webp);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 30vw;
+  height: 80vh;
+  background-color: purple;
+  background-position: 95% 50%;
+  border-radius: 15px;
+}
